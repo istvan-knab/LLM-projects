@@ -1,0 +1,5 @@
+{
+    "model": "llama3",
+    "gpu": true,
+    "timeout": 30
+}
