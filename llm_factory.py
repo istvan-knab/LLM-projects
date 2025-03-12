@@ -4,6 +4,5 @@ class LLM:
 
     def __init__(self, model:str) -> None:
         client = ollama.Client()
-        response = client.generate(model=model, prompt='Say my name if you are alive, I am Istvan Gellert Knab,'
-                                                       ' generate me a personal info card in console')
+        response = client.generate(model=model, prompt='How many parameters do you have?')
         print(response['response'])
